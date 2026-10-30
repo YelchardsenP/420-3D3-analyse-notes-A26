@@ -25,6 +25,7 @@ def construire_programme() -> Programme:
     groupe_3d3_02 = GroupeCours("Groupe 02")
     groupe_3d3_02.ajouter_etudiant(carla)
     groupe_3d3_02.ajouter_etudiant(david)
+    
 
     session_3d3_a26 = Session("Automne 2026")
     session_3d3_a26.ajouter_groupe(groupe_3d3_01)
