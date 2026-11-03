@@ -7,8 +7,8 @@ from donnees import construire_programme
 #   "web"      → interface graphique dans le navigateur (nécessite Flask)
 #   "terminal" → affichage en arbre dans le terminal
 # -----------------------------------------------------------------------------
-MODE = "web"
-#MODE = "terminal"
+#MODE = "web"
+MODE = "terminal"
 
 programme = construire_programme()
 
