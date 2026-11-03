@@ -8,7 +8,7 @@ from donnees import construire_programme
 #   "terminal" → affichage en arbre dans le terminal
 # -----------------------------------------------------------------------------
 MODE = "web"
-
+#MODE = "terminal"
 
 programme = construire_programme()
 

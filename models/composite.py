@@ -32,14 +32,17 @@ class Composite(Composant, ABC):
             "enfants": [e.to_dict() for e in self._enfants]
         }
 
-class GroupeCours(Composite):
-    pass  # Hérite tout de Composite — aucun code à ajouter
+class GroupeCours(Composite): #groupecours
+    pass # Hérite tout de Composite — aucun code à ajouter
 
-class Session(Composite):
-    pass
+class Session(Composite): #session
+    pass # Hérite tout de Composite — aucun code à ajouter
 
-class Cours(Composite):
-    pass
+class Departement(Composite): #departement
+    pass # Hérite tout de Composite — aucun code à ajouter
 
-class Programme(Composite):
-    pass
+class Cours(Composite): #cours
+    pass # Hérite tout de Composite — aucun code à ajouter
+
+class Programme(Composite): #programme
+    pass # Hérite tout de Composite — aucun code à ajouter

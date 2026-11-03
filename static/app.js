@@ -3,7 +3,8 @@ const ICONES = {
   cours:       "📚",
   session:     "📅",
   groupecours: "👥",
-  etudiant:    "🎓"
+  etudiant:    "🎓",
+  departement: "🔬"
 };
 
 const TYPES_FR = {
